@@ -540,6 +540,7 @@
 				TargetAttributes = {
 					F2C7844A1BE7544D00A36BFE = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4AT3XX2QKF;
 					};
 					F2C784601BE7544D00A36BFE = {
 						CreatedOnToolsVersion = 7.1;
@@ -810,6 +811,7 @@
 			baseConfigurationReference = 1E544B8C9F15F4D9BB858DB4 /* Pods-SwiftGG.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug",
@@ -823,7 +825,7 @@
 					"$(PROJECT_DIR)/SwiftGG/Library/JPush",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = org.swiftgg.SwiftGG;
+				PRODUCT_BUNDLE_IDENTIFIER = org.Ray.SwiftGG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SwiftGG/Application/SwiftGG-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -835,6 +837,7 @@
 			baseConfigurationReference = 47B8E46D060162E350045F27 /* Pods-SwiftGG.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug",
@@ -848,7 +851,7 @@
 					"$(PROJECT_DIR)/SwiftGG/Library/JPush",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = org.swiftgg.SwiftGG;
+				PRODUCT_BUNDLE_IDENTIFIER = org.Ray.SwiftGG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SwiftGG/Application/SwiftGG-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
